@@ -1,0 +1,8 @@
+Origin: RungetRepo
+Label: RungetRepo
+Suite: stable
+Codename: big
+Architectures: amd64 source
+Components: main
+SignWith: 6216A63F1E903956098A8F39F0DF79EC7C941DB4
+

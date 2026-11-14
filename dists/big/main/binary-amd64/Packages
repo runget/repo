@@ -1,0 +1,21 @@
+Package: runget-plymouth-theme
+Version: 1.0.0
+Architecture: all
+Maintainer: Kolyadual <kolyadual.man@gmail.com>
+Installed-Size: 2273
+Depends: plymouth
+Homepage: https://github.com/runget
+Priority: optional
+Section: misc
+Filename: pool/main/r/runget-plymouth-theme/runget-plymouth-theme_1.0.0_all.deb
+Size: 394476
+SHA256: 45e30bdb18a051002144945f00ed173a7d2e32a8d264164233cdd4b73460ef58
+SHA1: 76d7cc6a073dfff961ae597129b3af031c2ab9ac
+MD5sum: 99f3115ac56e3b1bf633d8a0491cda94
+Description: Runget Plymouth boot theme
+ A custom Plymouth boot splash theme for Runget,
+ the lightweight Fyde-like Debian distribution.
+ .
+ After installation, activate it with:
+   sudo plymouth-set-default-theme -R runget
+
