@@ -1,0 +1,20 @@
+Package: lxqt-wayland-session
+Version: 0.3.1-1
+Architecture: all
+Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
+Installed-Size: 513
+Depends: labwc | wayfire | sway | kwin-wayland
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-wayland-session
+Priority: optional
+Section: x11
+Filename: pool/testing/l/lxqt-wayland-session/lxqt-wayland-session_0.3.1-1_all.deb
+Size: 345892
+SHA256: 63570a279c41f3e9c193c7280aa5dd0cdb09339e13f9b6f2d930310c5f8afd4f
+SHA1: 7725fc0a6dcb84a5c785ebbcfc09cecd6c717b92
+MD5sum: 01bcaffbee2ed583ad6554c41c3c1b28
+Description: Files needed for the LXQt Wayland Session
+ Files needed for the LXQt Wayland Session: Wayland session start script,
+ its desktop entry for display managers and default configurations for
+ actually supported compositors.
+

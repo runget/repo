@@ -1,3 +1,42 @@
+Package: openshot
+Source: openshot-qt
+Version: 2.5.1+dfsg1-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 13
+Depends: openshot-qt
+Homepage: https://www.openshot.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/o/openshot-qt/openshot_2.5.1+dfsg1-1_all.deb
+Size: 4392
+SHA256: 1dead4d6a17b6c0a58e3c9b9e05f8dcbb809e824d9457217c9cfe9efce4e0e26
+SHA1: bf88e284b256b4d30d4279cd0373d4654531301f
+MD5sum: 405ca84207e205f2718ece10a0a98b78
+Description: create and edit videos and movies (transitional package)
+ This is a transitional package. It can safely be removed.
+
+Package: portproton
+Version: 1.7.5
+Architecture: amd64
+Installed-Size: 450
+Depends: ca-certificates, coreutils (>= 8.23-1~) | realpath, curl, file, libc6 (>= 2.15), libnss3 (>= 2:3.26), xz-utils, bubblewrap, tar, vulkan-tools, libvulkan1, libvulkan1:i386, zstd, cabextract, xdg-utils, openssl, bc, libgl1, libgl1:i386, pciutils, desktop-file-utils, fontconfig, yad, jq, libimage-exiftool-perl
+Recommends: gamemode, inxi
+Multi-Arch: foreign
+Homepage: https://linux-gaming.ru
+License: MIT
+Priority: optional
+Section: games
+Filename: pool/main/p/portproton/portproton_1.7.5_amd64.deb
+Size: 55668
+SHA256: 0508fb8ebce551e6ee720d2181a779a74bff5f546f26033c055fc5d17c2af223
+SHA1: 823eefda4d3baa2fa1f6e175e34be7499ca398de
+MD5sum: b15d326ae125034b3a381f908eb15966
+Description: Software for playing Microsoft Windows games and launchers.
+ On Debian, you may need to run as root:
+ dpkg --add-architecture i386; apt update
+Maintainer: linux-gaming.ru (vanyamajukin@gmail.com)
+
 Package: runget-plymouth-theme
 Version: 1.0.0
 Architecture: all
@@ -18,4 +57,36 @@ Description: Runget Plymouth boot theme
  .
  After installation, activate it with:
    sudo plymouth-set-default-theme -R runget
+
+Package: spi
+Version: 2.0runget2.0
+Architecture: amd64
+Maintainer: Kolyadual
+Installed-Size: 3924
+Depends: distrobox, podman, python3, python3-pip, curl, ca-certificates, python3-requests, python3-full
+Priority: optional
+Section: utils
+Filename: pool/main/s/spi/spi_2.0runget2.0_amd64.deb
+Size: 8232
+SHA256: be9e58453ce4c13e3b7444c793c93dc7703fc8eda790aa6534f2626a37866af8
+SHA1: 3f819e333a046c45018d36d90f16065ee6288726
+MD5sum: 7222e99ddabf32d955b00809c11063c9
+Description: System Package Installer by Kolyadual
+
+Package: vangrapf-cli
+Version: 1.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-rich, python3-requests, yt-dlp, mpv
+Maintainer: Kolyadual <kolyadual.man@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/v/vangrapf-cli/vangrapf-cli_1.0_all.deb
+Size: 6076
+SHA256: 61cbe1d7fc057c73df7e1a99ded8e5f7a47d22333c0d4b1f0291dd56cf248382
+SHA1: 8f47759f4b58c502c2a306ff505cc019e011874d
+MD5sum: 0fa8780a759a41582fd2b0be1ae36ef9
+Description: Watch and download videos from YouTube, RuTube, VK, OK without blocks
+ Vangrapf CLI is a command-line tool that allows you to stream or download videos
+ using a proxy or direct access. Supports subtitles, search, and interactive GUI
+ with Rich library.
 

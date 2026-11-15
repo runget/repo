@@ -5,34 +5,88 @@ Origin: RungetRepo
 Label: RungetRepo
 Suite: stable
 Codename: big
-Date: Sat, 14 Nov 2026 12:18:37 UTC
+Date: Sun, 15 Nov 2026 11:07:09 UTC
 Architectures: amd64
-Components: main
+Components: main testing migrate neon
 MD5Sum:
- 43d94aae4b4c6971c393b189d79f5cbc 699 main/binary-amd64/Packages
- 1dcd84a56429b7c5c454b15af09b793e 468 main/binary-amd64/Packages.gz
+ 67c89ce49808d32004f1691cc88044fd 3518 main/binary-amd64/Packages
+ ce5215c0fe33ea4bc77e05d7d258b823 1750 main/binary-amd64/Packages.gz
  c72466f30eb6ca8629de2158733ab593 89 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  a59347c9e04ebd49829592f732941a7c 90 main/source/Release
+ 8449e79832e9f08799c337e182f847d6 793 testing/binary-amd64/Packages
+ c66390a70969a90846fe7e138bb12500 503 testing/binary-amd64/Packages.gz
+ a903aad221a1cae99eff2097824159a2 92 testing/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 testing/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 testing/source/Sources.gz
+ 9ec6d8fbdfef3513f5cb0814fb36bc7c 93 testing/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 migrate/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 migrate/binary-amd64/Packages.gz
+ 0728dea3b4d9194384fc2d7fcfe0586a 92 migrate/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 migrate/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 migrate/source/Sources.gz
+ 0aa6c5a0bf3232b65056ab6a920c7075 93 migrate/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 neon/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 neon/binary-amd64/Packages.gz
+ 829aaa426ce1e5716be2ad8e01bbc8a4 89 neon/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 neon/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 neon/source/Sources.gz
+ 9573f297c5eaeeea6f9e1aa2798b42b4 90 neon/source/Release
 SHA1:
- b3162ef01d568eadf30c9b3c62676cfd724de2d7 699 main/binary-amd64/Packages
- 0debc19d48906cbc26d66c6ea3b57dfd7b4dcafa 468 main/binary-amd64/Packages.gz
+ f4e2dd43a469888a2c72bc291eb9b72c1ca4bbe6 3518 main/binary-amd64/Packages
+ 01ed5fa76b50cea8576f73d447a1909279cd53c8 1750 main/binary-amd64/Packages.gz
  e105e610a71a9e5ba4fff08fb33ae88bcd7773dc 89 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  0d4df051d939da2e8481710707f680724e0af7f9 90 main/source/Release
+ 2c6c052f2f0efce2dcff3ad23698df9562ace9ff 793 testing/binary-amd64/Packages
+ b6f290bf9f87cd4cd7f603aa1c5f4689fac8fe8c 503 testing/binary-amd64/Packages.gz
+ 2b852bbc508cfec04a0b5068a12141de779f1b8d 92 testing/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 testing/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 testing/source/Sources.gz
+ bd73b7df2ac4c21892dbc4d46e18a5b82722f2ac 93 testing/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 migrate/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 migrate/binary-amd64/Packages.gz
+ fef44133bf07fc644e68f58236410afc0681f9d0 92 migrate/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 migrate/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 migrate/source/Sources.gz
+ 9cd5b819ab9b52b31501f11483209118826cde16 93 migrate/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 neon/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 neon/binary-amd64/Packages.gz
+ caec394364dab5431f49bb46751928362b76001d 89 neon/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 neon/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 neon/source/Sources.gz
+ 35f5876a2cd7516ad99320870b5a32c58d014b62 90 neon/source/Release
 SHA256:
- 7e720d65517a6ac22308a65949143dd92a4ec7c8e67a2da7b33e2da5cda5b2b9 699 main/binary-amd64/Packages
- cec29cda17d07a01d0c6e2b5190fa51fca0847cc70a3fe352e534b89e067b29a 468 main/binary-amd64/Packages.gz
+ d5ec88e0bd62d414ea49a91e51c2f1a8c128a179a5ffad78aecdd81ed932f449 3518 main/binary-amd64/Packages
+ a1e0303a8eb90cd0f167d947fa3922ed1f0a44956d1bc8a3c032d00b944d371c 1750 main/binary-amd64/Packages.gz
  9a9ee374d10ade14ad64cedca94e21ebb1a71483319ceb0d727ec886f5fc02b4 89 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  34d71458c7160717c923f4772125bf62b48fb9d79be57eaa678c38042ec3b53e 90 main/source/Release
+ 2615e55ac1bf031bbd8963402f258fdf28c54e963aea53f1fdfa614b96803cd0 793 testing/binary-amd64/Packages
+ ec08aa32c7b9d4e407d58ea01ed1b55687e5efe1d0ad7124190a6a55aa99f709 503 testing/binary-amd64/Packages.gz
+ 33b941308deb2165cef59c955352f5aab90ae9f2b46a7c8fde5daa4e8d6e53b7 92 testing/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 testing/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 testing/source/Sources.gz
+ f0fb95b8b4322cb1f996791805a8ec60458fe1a6f74922ec74798503e8655536 93 testing/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 migrate/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 migrate/binary-amd64/Packages.gz
+ dfc02da280ab566baf1465a2666cfbcc3276ca72546bcf04552eaf3e7365252b 92 migrate/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 migrate/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 migrate/source/Sources.gz
+ e6ae7dcf660971d7af874c9f43e5fc045a373f3e0cc4769d76a6df9d47b18a86 93 migrate/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 neon/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 neon/binary-amd64/Packages.gz
+ d16a684f8ed78246d33f89bc7410d48651642870616cc51c70a1b1719863f5f3 89 neon/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 neon/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 neon/source/Sources.gz
+ ef4ebc094a9cf0b04441a910a0a5fc9686b2f425800b8f9e47c5616c4a811d0e 90 neon/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRiFqY/HpA5VgmKjznw33nsfJQdtAUCavhRpQAKCRDw33nsfJQd
-tCl6AP97hbH13/vRxK9IIESnMNSOaRtVfGbYU5uJJiQYnEHVFAEAhyL/V9xAQNXN
-h2OisovJG3BpbFPl/euF0IrwN7Je4wc=
-=/VOj
+iHUEARYKAB0WIQRiFqY/HpA5VgmKjznw33nsfJQdtAUCavmSXQAKCRDw33nsfJQd
+tMWmAQCausseGZaRAjLj0M8srEBOuV/xqCMqwZLZN0sXy1Mv/QEAiNVkSTaLl1jl
+ltc34BIb/Hb48neOOfbRk5SgIpE9BAo=
+=6djF
 -----END PGP SIGNATURE-----
