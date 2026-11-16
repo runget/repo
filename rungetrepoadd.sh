@@ -18,6 +18,6 @@ fi
 
 curl -fsSL https://runget.github.io/repo/pubkey.gpg | gpg --dearmor -o /etc/apt/keyrings/rungetrepo.gpg
 
-echo "deb [signed-by=/etc/apt/keyrings/rungetrepo.gpg] https://kolyadual.github.io/repo/ big main testing" | tee /etc/apt/sources.list.d/rungetrepo.list
+echo "deb [signed-by=/etc/apt/keyrings/rungetrepo.gpg] https://runget.github.io/repo/ big main testing" | tee /etc/apt/sources.list.d/rungetrepo.list
 
 apt update
